@@ -10,8 +10,7 @@ body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   color: #333;
 }
-
-/* Corrected border-radius syntax */
+hj
 .hero img {
   border-radius: 50%;
   width: 300px;
@@ -23,4 +22,20 @@ body {
 .accent {
   color: black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen (max-width:768) {
+ body{background-color: cyan;}
+}
+.grid{
+display:flex;
+justify-content: center;
+gap: 15px
+flex-wrap:wrap;
+}
+
+.grid div{
+  background-color: cadetblue;
+  border-radius: 10px
+  padding: 5px
 }
